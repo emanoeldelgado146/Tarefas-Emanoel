@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    width: 80rem
+}
+.inicio{
+    display: flex;
+    width: auto;
+    color: #000;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.inicio ul{
+    justify-content: space-between;
+}
+.inicio a{
+    text-decoration: none;
+}
+.logo img{
+    width: 8rem;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    margin: 10px 30px 10px 30px;
+    text-decoration: none;
+    list-style: none;
+}
+.line01{
+    display: flex;
+    margin-top: 4rem;
+}
+.box-left,
+.box-right{
+    width: 40rem;
+    margin-top: 2rem;
+}
+.line01 .box-left{
+    align-items: center;
+    justify-content: END;
+}
+.line01 .box-left h1{
+    font-size: 2.5rem;
+}
+.line01 .box-left p{
+    font-size: 1rem;
+    color: rgb(108, 117, 125);
+    margin-top: 1rem;
+}
+.line01 .box-left .botao button{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #69B99D;
+    color: #fff;
+    margin-top: 1rem;
+    border: none;
+}
+.line01 .box-right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.line01 .box-right img{
+    width: 40rem;
+}
+.line02{
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: #fff;
+}
+.line02 .box-left{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.line02 .box-left img{
+    width: 40rem;
+}
+.line02 .box-right h2{
+    display: flex;
+    text-align: end;
+}
